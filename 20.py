@@ -7,7 +7,7 @@ if(Ticket == Prefer[0]):
     if(Person=="Yes"):
         print("Student cinema ticket : {0} Turkish Lira".format(float(CinemaTicket/2)))
     elif(Person=="No"):
-        print("Cinema Ticket : {}".format(CinemaTicket))
+        print("Cinema Ticket : {0} Turkish Lira".format(CinemaTicket))
     else:
         print("invalid value")
 elif(Ticket == Prefer[1]):
@@ -16,7 +16,7 @@ elif(Ticket == Prefer[1]):
     if(Person=="Yes"):
         print("Student theatre ticket : {0} Turkish Lira".format(float(TheatreTicket/2)))
     elif(Person=="No"):
-        print("Theatre Ticket : {}".format(TheatreTicket))
+        print("Theatre Ticket : {0} Turkish Lira".format(TheatreTicket))
     else:
         print("invalid value")
 else:
