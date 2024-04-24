@@ -1,7 +1,7 @@
 number = int(input("Enter a number : "))
 
-even_number = 0
 odd_number = 0
+even_number = 0
 
 for i in range(1,number+1):
     if i%2==0:
@@ -9,5 +9,5 @@ for i in range(1,number+1):
     else:
         odd_number +=i
 
-print(odd_number)
-print(even_number)
+print("Tek sayıların toplamı : {0}".format(odd_number))
+print("Çift sayıların toplamı : {0}".format(even_number))
