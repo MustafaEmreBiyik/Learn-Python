@@ -1,4 +1,4 @@
-Prefer = ["sinema","theater"]
+Prefer = ["cinema","theater"]
 
 Ticket = input("If you want to go to the cinema, write 'cinema' but if you want to go to the theater, write 'theater' :").lower()
 if(Ticket == Prefer[0]):
